@@ -8,7 +8,6 @@ LICENSE = "MIT"
 inherit core-image
 
 CORE_IMAGE_EXTRA_INSTALL += "openssh"
-CORE_IMAGE_EXTRA_INSTALL += "sm1cpp"
 CORE_IMAGE_EXTRA_INSTALL += "ptipp"
 
 BBCLASSEXTEND += "native nativesdk"

@@ -7,7 +7,7 @@ DESCRIPTION = "sm1/pti - MKS Pressure Technology Industries"
 SECTION = "examples"
 DEPENDS = ""
 LICENSE = "MIT"
-LIC_FILES_CHKSUM = "file://COPYING.MIT;md5=838c366f69b72c5df05c96dff79b35f2"
+LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda2f7b4f302"
 
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}-${PV}:"
 

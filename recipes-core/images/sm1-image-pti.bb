@@ -6,10 +6,12 @@ LICENSE = "MIT"
 
 inherit core-image
 
-CORE_IMAGE_EXTRA_INSTALL += "openssh"
-CORE_IMAGE_EXTRA_INSTALL += "ptipp"
-CORE_IMAGE_EXTRA_INSTALL += "git"
-CORE_IMAGE_EXTRA_INSTALL += "python"
-CORE_IMAGE_EXTRA_INSTALL += "connman"
+IMAGE_INSTALL += "openssh"
+IMAGE_INSTALL += "ptipp"
+IMAGE_INSTALL += "git"
+IMAGE_INSTALL += "python"
+IMAGE_INSTALL += "connman"
+IMAGE_INSTALL += "make"
+IMAGE_INSTALL += "gcc"
 
 BBCLASSEXTEND += "native nativesdk"
